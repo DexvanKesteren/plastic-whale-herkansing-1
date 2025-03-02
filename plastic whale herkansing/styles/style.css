@@ -1,0 +1,330 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapperindex {
+    background: url("/img/home.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.navbarindex {
+    height: 3em;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.navbarindex ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 1.25em;
+    padding: 0em;
+    list-style-type: none;
+}
+
+.navbarindex ul li {
+    list-style: none;
+    margin: 0 0.5em;
+    border-bottom: 2px;
+    padding-bottom: 0.25em;
+}
+
+.navbarindex ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+    padding: 0.375em 0.8125em;
+    font-family: "kaushan-script", sans-serif;
+    transition: color 0.4s, background-color 0.4s;
+}
+
+.navbarindex ul li a:hover {
+    color: blue;
+    border-radius: 0.125em;
+}
+
+.logo {
+    padding: 0.5em;
+    border-radius: 0.3em;
+    width: 10em;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.wrapper .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "kaushan-script", sans-serif;
+    user-select: none;
+}
+
+.introductie {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    width: 20em;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 6em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+}
+
+.introductie h2 {
+    color: white;
+    font-family: "kaushan-script", sans-serif;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.introductie p {
+    color: white;
+    font-family: "kaushan-script", sans-serif;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-top: 10em;
+}
+
+.footercontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 8em;
+}
+
+.contact {
+    flex: 1;
+    color: white;
+    font-family: "kaushan-script", sans-serif;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.wrappermissie {
+    background: url("./img/missie.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.logocontainer {
+    display: flex;
+    align-items: center;
+}
+
+.logomissie {
+    width: 2.5em;
+    height: 3em;
+    max-height: 100%;
+}
+
+.navbar {
+    height: 3em;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    margin: 0 0.5em;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+    padding: 0.375em 0.8125em;
+    font-family: "kaushan-script", sans-serif;
+    transition: color 0.4s, background-color 0.4s;
+}
+
+.navbar ul li a:hover {
+    color: blue;
+    border-radius: 0.125em;
+}
+
+.missie {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    width: 20em;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 6em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+}
+
+.missie h2 {
+    color: white;
+    font-family: "kaushan-script", sans-serif;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.missie p {
+    color: white;
+    font-family: "kaushan-script", sans-serif;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.wrapperhelpons {
+    background: url("./img/helpons2.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.helpons {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    width: 20em;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+}
+
+.helpons h2 {
+    color: white;
+    font-family: "kaushan-script", sans-serif;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.helpons p {
+    color: white;
+    font-family: "kaushan-script", sans-serif;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    font-size: 2em;
+    color: white;
+    font-family: "kaushan-script", sans-serif;
+}
+
+.helponsknop {
+    display: inline-block;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-size: 10em;
+}
+
+.helpons2 {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    width: 20em;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 4em;
+    margin-bottom: 0.2em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+}
+
+.helpons2 h2 {
+    color: white;
+    font-family: "kaushan-script", sans-serif;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.helpons2 p {
+    color: white;
+    font-family: "kaushan-script", sans-serif;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.wistjedat {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    width: 20em;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 0.2em;
+    margin-bottom: 2em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+}
+
+.wistjedat h2 {
+    color: white;
+    font-family: "kaushan-script", sans-serif;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.wistjedat p {
+    color: white;
+    font-family: "kaushan-script", sans-serif;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
